@@ -127,7 +127,7 @@
         android:text="Reset" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="79dp"
         android:layout_height="wrap_content"
         android:text="SAVE"
         android:id="@+id/button2"
@@ -135,6 +135,15 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="false"
         android:layout_alignParentLeft="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
+        android:text="LOAD"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
 
     <View
         android:layout_width="2dp"
