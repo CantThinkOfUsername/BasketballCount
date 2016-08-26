@@ -17,6 +17,8 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
+            //Team name 1
+
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -27,6 +29,8 @@
                 android:textColor="#000000"
                 android:textSize="14sp"
                 android:background="@android:color/transparent" />
+
+            //Team score 1
 
             <EditText
                 android:id="@+id/team_a_score"
@@ -69,6 +73,8 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
+            //Team name 2
+
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -79,6 +85,8 @@
                 android:textColor="#000000"
                 android:textSize="14sp"
                 android:background="@android:color/transparent" />
+
+            //Team score 2
 
             <EditText
                 android:id="@+id/team_b_score"
@@ -126,6 +134,8 @@
         android:onClick="resetScore"
         android:text="Reset" />
 
+    // Doesnt do anything yet
+
     <Button
         android:layout_width="79dp"
         android:layout_height="wrap_content"
@@ -135,6 +145,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="false"
         android:layout_alignParentLeft="true" />
+
+    // Doesnt do anything yet
 
     <Button
         style="?android:attr/buttonStyleSmall"
